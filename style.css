@@ -1,0 +1,42 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+nav {
+padding: 20px;
+background-color: #222;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin-right: 20px;
+}
+
+main {
+max-width: 900px;
+margin: 40px auto;
+padding: 20px;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+.fact-generator {
+margin-top: 30px;
+padding: 20px;
+border: 1px solid #ccc;
+}
+
+button {
+padding: 10px 15px;
+cursor: pointer;
+}
+
+section {
+margin-top: 30px;
+}
