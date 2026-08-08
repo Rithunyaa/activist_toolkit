@@ -7,9 +7,11 @@ const facts = [
 
 function generateFact() {
 const randomIndex = Math.floor(Math.random() * facts.length);
+const factElement = document.getElementById("fact");
 
 ```
-document.getElementById("fact").textContent = facts[randomIndex];
+factElement.textContent = facts[randomIndex];
 ```
 
 }
+
