@@ -1,42 +1,102 @@
+/* This sets up the basic look of the whole website. */
 body {
-font-family: Arial, sans-serif;
-margin: 0;
-padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121a2f;
+    color: rgb(223, 216, 216);
 }
 
+/* The navigation bar stays dark to fit the night-sky theme. */
 nav {
-padding: 20px;
-background-color: #222;
+    background-color: #191f32;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #d2b23f;
 }
 
+/* These are the links at the top of each page. */
 nav a {
-color: white;
-text-decoration: none;
-margin-right: 20px;
+    color: #e1c253;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
 }
 
+
+/* Keeps the main content from getting too wide. */
 main {
-max-width: 900px;
-margin: 40px auto;
-padding: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
 }
 
+/* Main heading. */
+h1 {
+    color: #e4c65c;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Smaller headings use the same yellow as the navigation. */
+h2 {
+    color: #bba03d;
+}
+
+h3 {
+    color: #bfab48;
+}
+
+/* This gives your image a clean border and keeps it from getting too large. */
 img {
-max-width: 100%;
-height: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 30px;
+    border: 2px solid #e4c552;
 }
 
-.fact-generator {
-margin-top: 30px;
-padding: 20px;
-border: 1px solid #ccc;
+/* Makes the paragraphs easier to read. */
+p {
+    line-height: 1.8;
+    font-size: 18px;
 }
 
-button {
-padding: 10px 15px;
-cursor: pointer;
-}
-
+/* These sections look like separate panels on the page. */
 section {
-margin-top: 30px;
+    margin-top: 30px;
+    padding: 26px;
+    background-color: #191f32;
+    border: 1px solid #2d313f;
+    border-radius: 10px;
+}
+
+/* The fact generator gets a slightly brighter border so it stands out. */
+.fact-generator {
+    text-align: center;
+    border: 2px solid #e1c560;
+}
+
+/* The fact itself gets a little more space around it. */
+#fact {
+    min-height: 50px;
+    margin: 25px 0;
+}
+
+/* This is the button used for the fact generator. */
+button {
+    background-color: #e4c75d;
+    color: #0e1425;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Changes the button slightly when the mouse is over it. */
+button:hover {
+    background-color: rgb(230, 225, 225);
 }

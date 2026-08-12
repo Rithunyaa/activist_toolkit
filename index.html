@@ -1,37 +1,54 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Light Pollution - Home</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- This is the navigation bar that appears on every page. -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="take-action.html">Take Action</a>
+        <a href="about.html">About Me</a>
+    </nav>
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="take-action.html">Take Action</a>
-    <a href="about.html">About Me</a>
-</nav>
+    <main>
 
-<main>
-    <h1>Light Pollution</h1>
+        <h1>Fight Light Pollution!</h1>
 
-    <!-- Replace this image path with your own image -->
-    <img src="assets/light-pollution.jpg" alt="PLACEHOLDER: Description of your light pollution image">
+        
+        <img src="assets/images/star_comparison.png" alt=" a comparison of 2 cities, on the left is a city with many artificial lights. On the right, there is a city that is less bright at night, and you can see many more stars compared to the right side which has no stars. ">
 
-    <section class="fact-generator">
-        <h2>Did You Know?</h2>
+        <section class="intro">
+            <h2>What Is Light Pollution?</h2>
 
-        <p id="fact">Click the button to learn a fact about light pollution!</p>
+            <p>
+                Light pollution is the excessive or unnecessary use of
+                artificial light at night. It can make it harder to see
+                stars and can affect people, animals, and the environment.
+            </p>
+        </section>
 
-        <button onclick="generateFact()">Generate Fact</button>
-    </section>
-</main>
+        <section class="fact-generator">
+            <h2>Did You Know?</h2>
 
-<script src="script.js"></script>
+            <p id="fact">
+                Want to learn a fact about light pollution!
+            </p>
+
+            <button id="myButton">Tell me</button>
+        </section>
+
+    </main>
+
+    <!-- This connects the JavaScript to the page. -->
+    <script src="script.js"></script>
+
 </body>
 </html>
